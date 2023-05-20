@@ -1,10 +1,10 @@
 
-![Yamdb Workflow Status](https://github.com/themasterid/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
+![Yamdb Workflow Status](https://github.com/sarva4dim/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
 
 # ЯП - Спринт 16 - CI и CD проекта api_yamdb. Python-разработчик (бекенд) (Яндекс.Практикум)
 
 
-Проект развернут по адресу: http://localhost:8000/redoc/
+Проект развернут по адресу: http://51.250.99.254:8000/redoc/
 ## Описание 
  
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории:«Книги», «Фильмы», «Музыка». Список категорий  может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
@@ -26,7 +26,7 @@
 ### Клонируем репозиторий и и переходим в него:
 
 ```bash
-git clone git@github.com:themasterid/yamdb_final.git
+git clone git@github.com:sarva4dim/yamdb_final.git
 ```
 ```bash
 cd yamdb_final
@@ -255,6 +255,6 @@ DB_HOST=db
 DB_PORT=5432 
 ```
 ### Документация API YaMDb 
-Документация доступна по эндпойнту: http://localhost:8000/redoc/
+Документация доступна по эндпойнту: http://51.250.99.254:8000/redoc/
 
 
